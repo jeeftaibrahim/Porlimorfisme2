@@ -25,6 +25,10 @@ switch (pilihan)
         kartuKredit.Bayar(1000);
         break;
 
+    default:
+        Console.WriteLine("Pilihan invalid");
+        break;
+
 }
 
 class MetodePembayaran
